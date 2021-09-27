@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+// Colors
+$blue: '#063d7a';
+$blue_dark: '#0A2240';
+$red: '#efc1c1';
+$red_light: '#f8dade';
+$red_dark: '#df2500';
+$link: '#1e71cd';
+$mute: '#aabfcd';
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #e6e6e6;
+  min-height: 100%;
+  margin: 0 0 20px;
+}
+
+#container {
+  width: 100%;
+  display: inline-block;
+}
+
+/** HEADER */
+
+/** NAVIGATION BAR */
+nav {
+  overflow: hidden;
+  background-color: #0a2240;
+  top: 0;
+  width: 100%;
+  ul {
+    text-align: right;
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    li {
+      display: inline;
+      font-family: 'Lato', sans-serif;
+      font-size: 12px;
+      a {
+        color: #f2f2f2;
+        text-decoration: none;
+        padding: 14px;
+        &:hover {
+          background-color: #111;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  text-align: center;
+}
+
+.findCare {
+  background-color: #063d7a;
+  padding: 50px;
+  color: #e6e6e6;
+  font-size: xx-large;
+}
+
+#listOf {
+  background-color: #ffffff;
+  margin: 0px 15% 50px 15%;
+  padding: 0px 10px 10px 10px;
+  box-shadow: 0 6px 12px 0 #0000007a;
+}
+
+.row {
+  display: flex;
+  -webkit-flex-flow: wrap column;
+  flex-flow: wrap column;
+  max-height: 230px;
+}
+
+.intro {
+  display: inline;
+  color: #1b76dd;
+  margin-top: 8px;
+}
+
+.largeLetter {
+  margin: 10px 0px 2px 0px;
+  text-decoration: underline;
+}
+
+.headerOne {
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+#navigation-treat {
+  text-align: center;
+  padding: 15px 0px 5px 0px;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.alphaB2 {
+  letter-spacing: 12px;
+  text-align: center;
+  overflow-wrap: break-word;
+  padding: 15px 0px 15px 0px;
+  margin-bottom: 8px;
+  background-color: #ffffff;
+}

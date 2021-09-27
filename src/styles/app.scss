@@ -78,9 +78,12 @@ nav {
   -webkit-flex-flow: wrap column;
   flex-flow: wrap column;
   max-height: 230px;
+  overflow: hidden;
+  align-items: flex-start;
 }
 
 .intro {
+  width: 50%;
   display: inline;
   color: #1b76dd;
   margin-top: 8px;

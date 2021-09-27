@@ -64,7 +64,7 @@ const renderList = (par1, par2) => {
 // Starts the application
 $(() => {
   $.ajax(
-    'https://chalharb.github.io/Digital-Engagement-FED-Test/assets/data.json'
+    'https://ericenergy.github.io//HealthCare-Directory/assets/data.json'
   ).then((res) => {
     res.termList.forEach((element) => {
       listItems.push(element)

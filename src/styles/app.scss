@@ -16,8 +16,6 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   background-color: #e6e6e6;
-  min-height: 100%;
-  margin: 0 0 20px;
 }
 
 #container {
@@ -25,9 +23,13 @@ body {
   display: inline-block;
 }
 
-/** HEADER */
+.logoNav {
+  float: left;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: large;
+}
 
-/** NAVIGATION BAR */
 nav {
   overflow: hidden;
   background-color: #0a2240;
@@ -68,7 +70,7 @@ nav {
 
 #listOf {
   background-color: #ffffff;
-  margin: 0px 15% 50px 15%;
+  margin: 0px 15% 20% 15%;
   padding: 0px 10px 10px 10px;
   box-shadow: 0 6px 12px 0 #0000007a;
 }
@@ -80,6 +82,7 @@ nav {
   max-height: 230px;
   overflow: hidden;
   align-items: flex-start;
+  min-height: 100px;
 }
 
 .intro {
@@ -87,10 +90,12 @@ nav {
   display: inline;
   color: #1b76dd;
   margin-top: 8px;
+  text-decoration: none;
 }
 
 .largeLetter {
   margin: 10px 0px 2px 0px;
+  padding-top: 10px;
   text-decoration: underline;
 }
 
@@ -110,7 +115,20 @@ nav {
   letter-spacing: 12px;
   text-align: center;
   overflow-wrap: break-word;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 0px 15px 10px;
   margin-bottom: 8px;
   background-color: #ffffff;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-bottom: 170px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav ul li a {
+    padding: 0px 4px 0px 0px;
+  }
 }
